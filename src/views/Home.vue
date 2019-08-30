@@ -125,7 +125,6 @@
   
       editItem (item) {
         this.editedIndex = this.users.indexOf(item)
-        console.log( item );
         this.editedItem = Object.assign({}, item)
         this.dialog = true
       },

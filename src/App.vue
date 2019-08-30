@@ -35,7 +35,7 @@
       clipped-left
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title>Application</v-toolbar-title>
+      <v-toolbar-title>Painel de Controle</v-toolbar-title>
     </v-app-bar>
 
     <v-content>
@@ -50,7 +50,7 @@
     </v-content>
 
     <v-footer app>
-      <span>&copy; 2019</span>
+      <span>Nested Development &copy; 2019</span>
     </v-footer>
   </v-app>
 </template>
